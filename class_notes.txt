@@ -1,0 +1,245 @@
+MongoDB CRUD Operations
+***********************
+    - MongoDB is NoSQL DataBase.
+
+    - MongoDB DataBase Supports JSON.
+
+    - MongoDB DataBase is "light" weight DataBase.
+
+    - MongoDB DataBase Running on "27017" Port Number.
+
+    - MongoDB DataBase provides cloud environment in the form of a "MongoDB Atlas".
+
+    - we can connect to MongoDB DataBase in two ways.
+
+            1) mongodb
+
+            2) mongoose
+
+    - "mongodb" module used to connect to mongodb DataBase without schema.
+
+    - "mongoose" module used to connect to mongodb DataBase with schema.
+
+    - rules & regulations called as schema.
+
+******************************************************************************************
+                    SQL                                 NoSQL
+******************************************************************************************
+Ex.
+        Oracle                                          MongoDB
+        MySQL                                           CassandraDB
+        SQLServer                                       RabbitMQ
+
+
+        DataBases                                       DataBases
+
+        tables                                          collections
+
+        records                                         documents
+
+        primary key                                     _id
+*******************************************************************************************
+
+DataBase Name : nodejs
+
+collection Name : products
+
+Password : admin
+
+Connection URL : mongodb+srv://admin:admin@cluster0.rtyas.mongodb.net/nodejs?retryWrites=true&w=majority
+
+
+
+> cd mongodb_crud
+
+> yarn add express mongodb cors dotenv
+
+
+**************************************
+mongodb_crud
+          get_products.js
+
+          post_products.js
+
+          update_products.js
+
+          delete_products.js
+
+          server.js
+
+          .env
+*************************************
+
+
+
+mongoose
+********
+        mongoose is the library
+
+        mongoose library used to interact with the mongodb database with rules and regulations
+
+        we will download mongoose with yarn tool or npm tool
+
+
+        > yarn add mongoose
+
+
+
+=> download the libraries
+
+        > yarn add express mongoose cors bcryptjs
+
+
+=> create the data
+
+        data.js
+
+
+=> create the Schema
+
+        userModel.js
+
+
+=> create the server application
+
+        server.js
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++
+upload images to aws s3 bucket
+
+passportjs
+
+bcryptjs
+
+payment gateways integration
+
+connection pooling
+
+aws/heroku cloud hosting
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+                        token based authentication system
+                        **********************************
+
+
+===============================
+tokenEx
+      server.js
+===============================
+
+                        AWS Deployment
+                        **************
+
+1) push code to GitHub Repository
+
+                node_syllabus
+
+2) create the application in AWS.
+
+                ElasticBeanStalk
+
+3) create the CI / CD Operation
+
+                CodePipeline
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
